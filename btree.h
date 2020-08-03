@@ -4,6 +4,8 @@
 #include "nodeOfBTree.h"
 #include <iostream>
 
+class NodeOfBTree;
+
 /*!
  * \brief The BTree class
  */
@@ -58,6 +60,11 @@ public:
      */
     NodeOfBTree* getRoot();
 
+    /*!
+     * \brief dealockNodeOfBTrees
+     */
+    void dealockNodeOfBTrees();
+
 private:
     NodeOfBTree* root = nullptr;
 
@@ -76,10 +83,7 @@ private:
      * \return
      */
     NodeOfBTree *getAncestor(NodeOfBTree *nodeOfBTree, int number);
-    /*!
-     * \brief dealockNodeOfBTrees
-     */
-    void dealockNodeOfBTrees();
+
 };
 
 #endif // BTREE_H
