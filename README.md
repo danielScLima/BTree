@@ -1,5 +1,7 @@
 BTree
 ====================
+Building with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/7r7xuhdygtocfb8t?svg=true)](https://ci.appveyor.com/project/DanielSLima/btree)
+
 Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/BTree.svg?branch=master)](https://www.travis-ci.com/danielScLima/BTree)
 
 This repository has a project with the implementation of a BTree.
